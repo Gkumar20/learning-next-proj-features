@@ -3,6 +3,7 @@ const nextConfig = {
     images:{
         domains:['cubanvr.com']
     }
+
 };
 
 export default nextConfig;

@@ -29,6 +29,9 @@ export default function Home() {
       <br />
       <Link href={"/image"}>Go to Image Page</Link>
       <br />
+      <br />
+      <Link href={"/userlocation"}>Go to User Location Page</Link>
+      <br />
 
       {/* navigation */}
       <button className="bg-black text-white" onClick={()=>navigation("/about")}> Go to about page</button>

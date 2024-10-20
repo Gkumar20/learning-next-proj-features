@@ -1,7 +1,7 @@
 // using client component
 'use client'
 import { useState, useEffect, Key } from "react";
-import Loading from "../loading";
+
 
 export default function ProductList() {
   const [product, setProduct] = useState([]);
@@ -22,7 +22,6 @@ export default function ProductList() {
 
   return (
     <div>
-      {product.length > 0 ? (
         <div>
           {product.map((item: {
             id: Key;
@@ -35,9 +34,6 @@ export default function ProductList() {
             </div>
           ))}
         </div>
-      ) : (
-        <Loading />
-      )}
 
     </div>
   );
