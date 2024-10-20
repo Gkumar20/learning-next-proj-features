@@ -1,0 +1,8 @@
+.Button {
+    border: 2px solid var(--button-border-color);
+    background: linear-gradient(to bottom right, var(--button-gradient-start), var(--button-gradient-end));
+    color: var(--button-text-color);
+    padding: 5px;
+    border-radius: 50%;
+}
+

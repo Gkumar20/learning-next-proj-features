@@ -5,12 +5,20 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --button-border-color: #333;
+  --button-gradient-start: blue;
+  --button-gradient-end: white;
+  --button-text-color: black;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --button-border-color: greenyellow;
+    --button-gradient-start: blue;
+    --button-gradient-end: black;
+    --button-text-color: white;
   }
 }
 
@@ -24,4 +32,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+h1 {
+  text-shadow: 2px 2px 2px rgb(255, 0, 0);
 }
