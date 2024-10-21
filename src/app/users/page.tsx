@@ -1,6 +1,6 @@
 // pages/users/page.tsx
 import Link from "next/link";
-import GetUser from "../../../services/getUser";
+import GetUser from "@/services/getUser";
 
 export default async function Users() {
     const userslist = await GetUser();

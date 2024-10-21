@@ -1,4 +1,4 @@
-import GetUser from "../../../../services/getUser";
+import GetUser from "@/services/getUser";
 
 export default async function UserId(props: {
     params: {
